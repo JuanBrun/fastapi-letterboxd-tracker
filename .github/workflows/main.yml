@@ -1,0 +1,13 @@
+name: Test Letterboxd
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Curl Letterboxd
+        run: |
+          curl -I https://letterboxd.com/marcosdra/
