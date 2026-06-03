@@ -1,7 +1,11 @@
 [project]
-name = "fastapi-example"
+name = "fastapi-letterboxd-tracker"
 version = "0.1.0"
 requires-python = ">=3.14"
+
 dependencies = [
-    "fastapi>=0.135.3"
+    "fastapi>=0.136.3",
+    "uvicorn>=0.48.0",
+    "pandas>=2.3.0",
+    "letterboxdpy==6.5.7"
 ]
